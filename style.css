@@ -13,21 +13,15 @@
     align-items: center; 
     justify-content: space-evenly;
 }
-
-.nav-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    border: 4px solid transparent;
-    padding: 0 10px;
-}
-
 .logo {
-    background-image: url("Agrologo.jpg");
+    background-image: url("Agrologo.png");
     background-size: cover;
     height: 55px;
     width: 100px;
     margin-right: 10px;
+}
+.border{
+    border: 1.5px solid transparent;
 }
 
 .border:hover {
@@ -99,5 +93,37 @@ span{
 
 .nav-second{
     font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**box 5**/
+
+.nav-shop i{
+ font-size: 30px;
+}
+.nav-shop{
+    font-size: 0.85rem;
+    font-weight: 700rem;
+}
+
+/**pannel*/
+
+.pannel{
+height: 40px;
+background-color: aquamarine;
+display: flex; 
+color: black;
+align-items: center;
+}
+
+.pannel-oops p{
+    display: inline;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.pannel-oops{
+    width: 70%;
+    font-size: 0.80rem;
     font-weight: 700;
 }
